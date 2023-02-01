@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    border: 1px solid #ececec;
+    box-shadow: 1px 1px 1px rgb(240, 237, 237);
+    width: 100%;
+    height: 150px;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    padding: 35px 90px;
+
+}
+
+.container__top {
+    padding-left: 80px;
+    width: 300px;
+    height: 50px;
+    color: rgb(73, 73, 252);
+    margin-right: 50px;
+}
+
+.icon__search {
+    color: #5b5b5b;
+    font-size: 25px;
+    position: relative;
+    left: 40px;
+    top: 12px;
+}
+
+.container__search{
+    width: 600px;
+    height: 45px;
+    border: 2px solid #5b5b5b;
+    border-radius: 50px;
+    padding: 0 50px;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+.container__all {
+    display: flex;
+    margin-top: 20px;
+}
+
+.container__login,
+.container__signin {
+    display: flex;
+    text-decoration: none;
+    color: #3a3939;
+    font-size: 18px;
+}
+
+.container__login:hover,
+.container__signin:hover {
+    color: blue;
+}
+
+.container__border {
+    border: 1px solid #5b5b5b;
+    height: 20px;
+    background: #5b5b5b;
+    margin: 0 20px;
+}
+
+.icon__cart {
+    color: #3a3939;
+    font-size: 40px;
+    margin:4px 30px;
+    color: rgb(73, 73, 252);
+}
+
+.app__importer {
+    text-align: center;
+    display: flex;
+    margin: 0 30%;
+    
+}
+
+.imformation {
+    text-decoration: none;
+    color: #121112;
+    font-size: 18px;
+    margin: 20px 40px;
+    position: relative;
+}
+
+.imformation:hover {
+    color: rgb(73, 73, 252);
+}
+
+.trousers {
+    height: 250px;
+}
+
+.trousers,
+.shoe,
+.accessory,
+.news {
+    display: none;
+    position: relative;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(243, 243, 243);
+}
+
+.trousers__items--border {
+    border: 1px solid #dbdbdb;
+    background-color: #cecdcd;
+}
+
+li {
+    margin: 10px 0;
+    display:block;
+    text-align: center;
+}
+
+.trousers__items,
+.shirt__items {
+    text-decoration: none;
+    color: black;
+}
+
+.trousers__items:hover {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(73, 73, 252);
+}
+
+.app__imformation:hover .trousers,
+.imformation__shirt:hover .shirt,
+.imformation__shoe:hover .shoe,
+.imformation__accessory:hover .accessory,
+.imformation__news:hover .news  {
+    display: block;
+}
+
+ul.products li img{
+    width: 300px;
+    height: 400px;
+}
+
+.app__hearder {
+    position: fixed;
+    border: 1px solid #ececec ;
+    width: 100%;
+    height: 700px;
+    background-image: url('https://scontent.fhan14-2.fna.fbcdn.net/v/t1.15752-9/310067724_1246345026146912_8446569416047287781_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=BQ8ZI0MqXoEAX_4GuHa&_nc_ht=scontent.fhan14-2.fna&oh=03_AdRnBOja0tJs8eaewZZW5nxymjWGZFyrGxjwBWfSOKWIFA&oe=64016F8E');
+    background-size:cover;
+}
